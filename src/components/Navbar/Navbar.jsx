@@ -128,7 +128,7 @@ function Header() {
                     className={`flex items-center justify-between text-blue-gray-900`}
                 >
                     <a href="/" className="mr-4 w-[23rem]">
-                        <img className="select-none" src="/src/assets/Navbar/logo.jpg" alt="" />
+                        <img className="select-none" src="../../assets/Navbar/logo.jpg" alt="" />
                     </a>
                     <div className="hidden lg:block py-4 w-full">
                         <NavList isFlex={isFlex} />

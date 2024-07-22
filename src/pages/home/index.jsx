@@ -35,17 +35,17 @@ function home() {
                 )}
             >
                 <img
-                    src="/src/assets/carousel/carousel_img-1.jpg"
+                    src="../../assets/carousel/carousel_img-1.jpg"
                     alt="image 1"
                     className="h-full w-full object-cover select-none"
                 />
                 <img
-                    src="/src/assets/carousel/carousel_img-2.jpg"
+                    src="../../assets/carousel/carousel_img-2.jpg"
                     alt="image 2"
                     className="h-full w-full object-cover select-none"
                 />
                 <img
-                    src="/src/assets/carousel/carousel_img-3.jpg"
+                    src="../../assets/carousel/carousel_img-3.jpg"
                     alt="image 3"
                     className="h-full w-full object-cover select-none"
                 />
@@ -55,25 +55,25 @@ function home() {
                 className={`flex px-[425px] 2xl:px-[225px] py-8 ${res2xl} ${resxl} ${reslg} ${resmd} ${res3xl} md:justify-between ${ressm} sm:justify-between sm:px-5 sm:py-3`}
             >
                 <Quick
-                    image={'/src/assets/quick/quick01.png'}
+                    image={'../../assets/quick/quick01.png'}
                     text1={'공지사항'}
                     text2={'대신캐스터 공지사항을 확인해보세요.'}
                     text3={'바로가기'}
                 />
                 <Quick
-                    image={'/src/assets/quick/quick02.png'}
+                    image={'../../assets/quick/quick02.png'}
                     text1={'온라인 견적문의'}
                     text2={'대신캐스터 온라인 견적문의를 받아보세요.'}
                     text3={'바로가기'}
                 />
                 <Quick
-                    image={'/src/assets/quick/quick03.png'}
+                    image={'../../assets/quick/quick03.png'}
                     text1={'찾아오시는길'}
                     text2={'대신캐스터 오시는길 안내입니다.'}
                     text3={'바로가기'}
                 />
                 <Quick
-                    image={'/src/assets/quick/quick04.png'}
+                    image={'../../assets/quick/quick04.png'}
                     text1={'카달로그 다운로드'}
                     text2={'대신캐스터 카달로그를 다운받으세요.'}
                     text3={'바로가기'}

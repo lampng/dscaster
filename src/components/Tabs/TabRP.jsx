@@ -21,7 +21,7 @@ function ProductIntroduction() {
                 opt_desc1: '크롬도금 (Chrome Plated)',
                 opt_desc2: '착색도금 (Metal Coloring)',
                 opt_desc3: '분체도장 (Powder Coating)',
-                img: '/src/assets/RewviewProduct/proImg01.jpg',
+                img: '../../assets/RewviewProduct/proImg01.jpg',
             },
         },
         // #2
@@ -37,7 +37,7 @@ function ProductIntroduction() {
                 Option: '선택사양(Option)',
                 opt_desc1: '착색도금 (Metal Coloring)',
                 opt_desc2: '분체도장 (Powder Coating)',
-                img: '/src/assets/RewviewProduct/proImg02.jpg',
+                img: '../../assets/RewviewProduct/proImg02.jpg',
             },
         },
         // #3
@@ -53,7 +53,7 @@ function ProductIntroduction() {
                 Option: '선택사양(Option)',
                 opt_desc1: '착색도금 (Metal Coloring)',
                 opt_desc2: '분체도장 (Powder Coating)',
-                img: '/src/assets/RewviewProduct/proImg03.jpg',
+                img: '../../assets/RewviewProduct/proImg03.jpg',
             },
         },
         // #4
@@ -69,7 +69,7 @@ function ProductIntroduction() {
                 Option: '선택사양(Option)',
                 opt_desc1: '착색도금 (Metal Coloring)',
                 opt_desc2: '분체도장 (Powder Coating)',
-                img: '/src/assets/RewviewProduct/proImg04.jpg',
+                img: '../../assets/RewviewProduct/proImg04.jpg',
             },
         },
         // #5
@@ -84,7 +84,7 @@ function ProductIntroduction() {
                 usa_desc3: '식당, 급식소 (Food Service Equipment)',
                 Option: '선택사양(Option)',
                 opt_desc1: '무소음 그리스 사용 (No noise grease used)',
-                img: '/src/assets/RewviewProduct/proImg05.jpg',
+                img: '../../assets/RewviewProduct/proImg05.jpg',
             },
         },
         // #6
@@ -100,7 +100,7 @@ function ProductIntroduction() {
                 usa_desc4: '유리 제조업체 (Glass Manufacturing Company)',
                 Option: '선택사양(Option)',
                 opt_desc1: '고온, 저온에 강한 특수 그리스 사용 (Special grease used) -35°C ~ +250°C',
-                img: '/src/assets/RewviewProduct/proImg06.jpg',
+                img: '../../assets/RewviewProduct/proImg06.jpg',
             },
         },
         // #7
@@ -119,7 +119,7 @@ function ProductIntroduction() {
                 opt_desc3: '분체도장 (Powder Coating)',
                 Feature: '특징(Feature)',
                 fea_desc1: '무소음 그리스 사용 (No noise grease used)',
-                img: '/src/assets/RewviewProduct/proImg07.jpg',
+                img: '../../assets/RewviewProduct/proImg07.jpg',
             },
         },
         // #8
@@ -138,7 +138,7 @@ function ProductIntroduction() {
                 opt_desc3: '분체도장 (Powder Coating)',
                 Feature: '특징(Feature)',
                 fea_desc1: '무소음 그리스 사용 (No noise grease used)',
-                img: '/src/assets/RewviewProduct/proImg08.jpg',
+                img: '../../assets/RewviewProduct/proImg08.jpg',
             },
         },
         // #9
@@ -154,7 +154,7 @@ function ProductIntroduction() {
                 opt_desc1: '크롬도금 (Chrome Plated)',
                 opt_desc2: '착색도금 (Metal Coloring)',
                 opt_desc3: '분체도장 (Powder Coating)',
-                img: '/src/assets/RewviewProduct/proImg09.jpg',
+                img: '../../assets/RewviewProduct/proImg09.jpg',
             },
         },
         // #10
@@ -167,7 +167,7 @@ function ProductIntroduction() {
                 usa_desc1: '기계장비 (Machine Equipment)',
                 usa_desc2: '의료장비 (Medical Device)',
                 usa_desc3: '통신장비 (Signal Equipment)',
-                img: '/src/assets/RewviewProduct/proImg10.jpg',
+                img: '../../assets/RewviewProduct/proImg10.jpg',
             },
         },
         // #11
@@ -184,7 +184,7 @@ function ProductIntroduction() {
                 opt_desc1: '니켈도금(NI)',
                 opt_desc2: '스테인레스(Stainless)',
                 opt_desc3: '특수사양은 주문 제작',
-                img: '/src/assets/RewviewProduct/proImg12.jpg',
+                img: '../../assets/RewviewProduct/proImg12.jpg',
             },
         },
         // #12
@@ -196,7 +196,7 @@ function ProductIntroduction() {
                 Usage: '용도(Usage)',
                 usa_desc1: '식당 카트 (Restaurant Cart)',
                 usa_desc2: '산업용 카트 (Industrial Cart)',
-                img: '/src/assets/RewviewProduct/proImg14.jpg',
+                img: '../../assets/RewviewProduct/proImg14.jpg',
             },
         },
     ];

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Collapse, Typography, IconButton, Menu, MenuHandler, MenuList, MenuItem } from '@material-tailwind/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { HashLink as Link } from 'react-router-hash-link';
 
 function NavbarListItem({ ListMenuItems, Label, LabelDesc, href, div, ul, li }) {

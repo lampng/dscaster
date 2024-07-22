@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className={`px-[425px] flex py-12 bg-gray-900 bg-opacity-10 ${res3xl} ${res2xl} ${resxl} ${reslg} ${resmd} ${ressm} sm:py-5`}>
             <div className="w-1/5 flex items-center xl:w-1/4 sm:justify-center">
-                <img src='/src/assets/Footer/footer_logo.png' alt="" className="select-none" />
+                <img src='../../assets/Footer/footer_logo.png' alt="" className="select-none" />
                 <Typography variant="h5" className="opacity-60 font-bold pl-2 sm:hidden">
                     (주)대신캐스터
                 </Typography>
