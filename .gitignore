@@ -1,2 +1,5 @@
 node_modules
 dist
+git add .
+git commit -m ''
+git push -u origin dscaster
