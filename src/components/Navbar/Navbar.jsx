@@ -124,11 +124,9 @@ function Header() {
                 </div>
             </header>
             <div className={`rounded-none shadow-none px-0 ${ressm} ${resmd} ${reslg} ${resxl} ${res2xl} ${res3xl}`}>
-                <div
-                    className={`flex items-center justify-between text-blue-gray-900`}
-                >
+                <div className={`flex items-center justify-between text-blue-gray-900`}>
                     <a href="/" className="mr-4 w-[23rem]">
-                        <img className="select-none" src="../../assets/Navbar/logo.jpg" alt="" />
+                        <img className="select-none" src="../Navbar/logo.jpg" alt="" />
                     </a>
                     <div className="hidden lg:block py-4 w-full">
                         <NavList isFlex={isFlex} />

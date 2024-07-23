@@ -5,28 +5,28 @@ import Certification from '/src/pages/introduction/tabItem/Certification'
 import Location from '/src/pages/introduction/tabItem/Location'
 export const IntroductionListMenuItems = [
   {
-      image: '/src/assets/Navbar/top2m1_01.png',
+      image: '../Navbar/top2m1_01.png',
       title: '회사개요',
       description: 'Message',
       to: '/introduction/message',
       value: 'Message',
   },
   {
-      image: '/src/assets/Navbar/top2m1_02.png',
+      image: '../Navbar/top2m1_02.png',
       title: '회사연혁',
       description: 'History',
       to: '/introduction/history',
       value: 'History',
   },
   {
-      image: '/src/assets/Navbar/top2m1_03.png',
+      image: '../Navbar/top2m1_03.png',
       title: '품질인증',
       description: 'Quality Certification',
       to: '/introduction/certification',
       value: 'Certification',
   },
   {
-      image: '/src/assets/Navbar/top2m1_04.png',
+      image: '../Navbar/top2m1_04.png',
       title: '찾아오시는길',
       description: 'Location',
       to: '/introduction/location',

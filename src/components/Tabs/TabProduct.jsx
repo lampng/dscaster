@@ -45,7 +45,7 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                 </div>
                 {/* //!RESPONSIVE */}
                 <div className="w-4/5  2xl:w-4/5 xl:w-4/5 lg:w-4/5 sm:w-full md:w-full">
-                    <div className="bg-[url('../../assets/Product/subVisual_1.jpg')] bg-auto sm:mx-0 bg-center bg-no-repeat p-0 border-b-2 border-[gray] mx-12 3xl:mx-12 3xl:px-0 2xl:px-0 xl:px-0 lg:px-0 2xl:mx-11 xl:mx-12 lg:mx-10 md:px-8">
+                    <div className="bg-[url('../Product/subVisual_1.jpg')] bg-auto sm:mx-0 bg-center bg-no-repeat p-0 border-b-2 border-[gray] mx-12 3xl:mx-12 3xl:px-0 2xl:px-0 xl:px-0 lg:px-0 2xl:mx-11 xl:mx-12 lg:mx-10 md:px-8 sm:px-8">
                         {data.map((item) => (
                             <Tabs
                                 key={item.value}
@@ -100,9 +100,9 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                     ))}
                     {/* //! DOWNLOAD - SEARCH - COMPANY */}
                     <ul className="w-[13rem] px-3 *:py-1 py-14">
-                        <Quick image={'../../assets/quick/quick04.png'} text1={'카달로그 다운'} text3={'바로가기'} />
-                        <Quick image={'../../assets/quick/quick02.png'} text1={'온라인 견적문의'} text3={'바로가기'} />
-                        <Quick image={'../../assets/quick/quick03.png'} text1={'찾아오시는길'} text3={'바로가기'} />
+                        <Quick image={'../quick/quick04.png'} text1={'카달로그 다운'} text3={'바로가기'} />
+                        <Quick image={'../quick/quick02.png'} text1={'온라인 견적문의'} text3={'바로가기'} />
+                        <Quick image={'../quick/quick03.png'} text1={'찾아오시는길'} text3={'바로가기'} />
                     </ul>
                 </TabsHeader>
                 {activeTab === dataBody?.value && (

@@ -4,9 +4,9 @@ export default withMT({
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
-            screens:{
+            screens: {
                 '3xl': '1920px',
-            }
+            },
         },
     },
     plugins: [],
