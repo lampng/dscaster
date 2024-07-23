@@ -3,6 +3,13 @@ import Message from '/src/pages/introduction/tabItem/Message';
 import History from '/src/pages/introduction/tabItem/History'
 import Certification from '/src/pages/introduction/tabItem/Certification'
 import Location from '/src/pages/introduction/tabItem/Location'
+// ! DATA
+import CasterNomenclature from '/src/pages/data/tabItem/CasterNomenclature'
+import PlateNomenclature from '/src/pages/data/tabItem/PlateNomenclature'
+import LoadCapacity from '/src/pages/data/tabItem/LoadCapacity'
+import CasterNumberingSystem from '/src/pages/data/tabItem/CasterNumberingSystem'
+import Usage from '/src/pages/data/tabItem/Usage'
+// ! Products
 export const IntroductionListMenuItems = [
   {
       image: '../Navbar/top2m1_01.png',
@@ -72,78 +79,78 @@ export const ProductListMenuItems = [
       title: '경하중용캐스터',
       description: 'Light-Duty Caster',
       value: 'Light-Duty',
-      to: '/products/Light-Duty',
+      to: '/product/Light-Duty',
   },
   {
       title: '중간하중용 캐스터',
       description: 'Medium-Duty Caster',
       value: 'Medium-Duty',
-      to: '/products/Medium-Duty',
+      to: '/product/Medium-Duty',
   },
   {
       title: '중하중용 캐스터',
       description: 'Heavy-Duty Caster',
       value: 'Heavy-Duty',
-      to: '/products/Heavy-Duty',
+      to: '/product/Heavy-Duty',
   },
   {
       title: '스테인리스 캐스터',
       description: 'Super Heavy-Duty Caster',
       value: 'Super-Heavy-Duty',
-      to: '/products/Super-Heavy-Duty',
+      to: '/product/Super-Heavy-Duty',
   },
   {
       title: '고하중용 캐스터',
       description: 'Stainless Steel Caster',
       value: 'StainlessiSteel',
-      to: '/products/StainlessiSteel',
+      to: '/product/StainlessiSteel',
   },
   {
       title: '내열성/내한성 캐스터',
       description: 'Heat-Resisting/Low Temperature Caster',
       value: 'Heat-Resisting',
-      to: '/products/Heat-Resisting',
+      to: '/product/Heat-Resisting',
   },
   {
       title: '의료용 캐스터',
       description: 'Medical Equipment Caster',
       value: 'Medical-Equipment',
-      to: '/products/Medical-Equipment',
+      to: '/product/Medical-Equipment',
   },
   {
       title: '저소음 캐스터',
       description: 'Low Noise Caster',
       value: 'Low-Noise',
-      to: '/products/Low-Noise',
+      to: '/product/Low-Noise',
   },
   {
       title: '특수 목적용 캐스터',
       description: 'Special Caster',
       value: 'Special-Caster',
-      to: '/products/Special-Caster',
+      to: '/product/Special-Caster',
   },
   {
       title: '높낮이조절 캐스터',
       description: 'Leveling Caster',
       value: 'Leveling-Caster',
-      to: '/products/Leveling-Caster',
+      to: '/product/Leveling-Caster',
   },
   {
       title: '높낮이 조절자',
       description: 'Leveling Foot',
       value: 'Leveling-Foot',
-      to: '/products/Leveling-Foot',
+      to: '/product/Leveling-Foot',
   },
   {
       title: '운반 기구',
       description: 'Trolley',
-      to: '/products/Trolley',
+      to: '/product/Trolley',
       value: 'Trolley',
   },
   {
       title: '기타',
       description: 'etc',
-      to: '/products/etc',
+      to: '/product/etc',
       value: 'etc',
   },
 ];
@@ -174,7 +181,6 @@ export const CustomerListMenuItems = [
       to: '/customer-center/Q&A',
   },
 ];
-
 // ! Item Introduction
 export const TabIntroduction = [
     {
@@ -202,4 +208,36 @@ export const TabIntroduction = [
         content: <Location />,
     },
   ];
-// ! Product Introduction
+// ! Item Data
+export const TabData = [
+    {
+        label: '캐스터용어',
+        labelDesc: 'Caster Nomenclature',
+        value: 'Casternomenclature',
+        content: <CasterNomenclature />,
+    },
+    {
+        label: '플레이트용어',
+        labelDesc: 'Plate Nomenclature',
+        value: 'Platenomenclature',
+        content: <PlateNomenclature />,
+    },
+    {
+        label: '품질인증',
+        labelDesc: 'Load Capacity',
+        value: 'Loadcapacity',
+        content: <LoadCapacity />,
+    },
+    {
+        label: '표기방법및용어',
+        labelDesc: 'Caster Numbering System',
+        value: 'Casternumberingsystem',
+        content: <CasterNumberingSystem />,
+    },
+    {
+        label: '주의사항',
+        labelDesc: 'Usage',
+        value: 'Usage',
+        content: <Usage />,
+    },
+]

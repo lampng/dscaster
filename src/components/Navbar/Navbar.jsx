@@ -106,7 +106,7 @@ function Header() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
                         </svg>
                     </Typography>
-                    <a href="#" className="px-2 tracking-tighter opacity-85">
+                    <a href="/" className="px-2 tracking-tighter opacity-85">
                         SITEMAP
                     </a>
                     <Typography className="content-center">
