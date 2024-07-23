@@ -1,10 +1,8 @@
 import { Tab, TabPanel, Tabs, TabsHeader, TabsBody, Typography } from '@material-tailwind/react';
-import React, { useEffect, useState, lazy, Suspense } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Breadcrumd from '../../components/Breadcrumb';
 import Quick from '../../components/Quick';
-
-const LazyTabPanel = lazy(() => import('@material-tailwind/react').then(module => ({ default: module.TabPanel })));
 
 function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
     const navigate = useNavigate();
@@ -42,7 +40,7 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                         <Typography variant="h4" color="white">
                             {site}
                         </Typography>
-                        <Typography className="text-[11px] tracking-tighter text-gray-500">{site}</Typography>
+                        <Typography className="text-[11px] tracking-tighter text-gray-500">{siteDesc}</Typography>
                     </div>
                 </div>
                 {/* //!RESPONSIVE */}
@@ -107,13 +105,11 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                         <Quick image={'../quick/quick03.png'} text1={'찾아오시는길'} text3={'바로가기'} />
                     </ul>
                 </TabsHeader>
-                <Suspense fallback={<div>Loading...</div>}>
-                    {activeTab === dataBody?.value && (
-                        <LazyTabPanel value={dataBody?.value} className="p-0 px-16 py-6 pt-0 3xl:px-16 2xl:px-24">
-                            {activeTab === dataBody?.value && dataBody?.content}
-                        </LazyTabPanel>
-                    )}
-                </Suspense>
+                {activeTab === dataBody?.value && (
+                    <TabPanel value={dataBody?.value} className="p-0 px-16 py-6 pt-0 3xl:px-16 2xl:px-24">
+                        {activeTab === dataBody?.value && dataBody?.content}
+                    </TabPanel>
+                )}
             </Tabs>
         </div>
     );

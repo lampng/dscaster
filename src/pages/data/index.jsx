@@ -1,7 +1,6 @@
-import React from 'react';
-import TabProduct from '../../components/Tabs/TabProduct';
+import React, { lazy, Suspense } from 'react';
+const TabProduct = lazy(() => import('../../components/Tabs/TabProduct'));
 import { TabData } from '../../constants';
-
 function index() {
     const res3xl = `3xl:px-[425px]`;
     const res2xl = `2xl:px-[225px]`;
@@ -11,14 +10,16 @@ function index() {
     const ressm = `sm:px-[0px]`;
     return (
         <body className={`flex h-auto ${res3xl} ${res2xl} ${resxl} ${reslg} ${resmd} ${ressm}`}>
-            <TabProduct
-                data={TabData}
-                dfTab={TabData[0].value}
-                site="캐스터자료실"
-                siteDesc="Caster Data"
-                href="data"
-                paramsId="dataId"
-            />
+            <Suspense fallback={<div>Loading...</div>}>
+                <TabProduct
+                    data={TabData}
+                    dfTab={TabData[0].value}
+                    site="캐스터자료실"
+                    siteDesc="Caster Data"
+                    href="data"
+                    paramsId="dataId"
+                />
+            </Suspense>
         </body>
     );
 }
