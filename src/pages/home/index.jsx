@@ -35,7 +35,7 @@ function Home() {
                 )}
             >
                 <img
-                    src='../carousel/carousel_img-1.jpg'
+                    src="../carousel/carousel_img-1.jpg"
                     alt="image 1"
                     className="h-full w-full object-cover select-none"
                 />
