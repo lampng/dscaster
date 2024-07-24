@@ -1,8 +1,8 @@
 import { Tab, TabPanel, Tabs, TabsHeader, TabsBody, Typography } from '@material-tailwind/react';
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import Breadcrumd from '../../components/Breadcrumb';
-import Quick from '../../components/Quick';
+import Breadcrumd from '../Breadcrumb';
+import Quick from '../Quick';
 
 function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
     const navigate = useNavigate();
@@ -84,8 +84,8 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                                         <div
                                             className={
                                                 activeTab === item.value
-                                                    ? 'text-[11px] leading-none font-medium text-white'
-                                                    : 'text-[11px] leading-none font-medium text-gray-500'
+                                                    ? 'text-[11px] leading-none font-medium text-white -tracking-wider'
+                                                    : 'text-[11px] leading-none font-medium text-gray-500 -tracking-wider'
                                             }
                                         >
                                             {item.labelDesc}
@@ -93,7 +93,7 @@ function TabProduct({ paramsId, dfTab, site, siteDesc, href, data }) {
                                     </div>
                                 </div>
                                 {activeTab === item.value && (
-                                    <div className="absolute top-[0.44rem] end-[-1.05rem] w-[2.12rem] h-[2.12rem] bg-red-900 transform rotate-45"></div>
+                                    <div className="absolute top-[0.44rem] end-[-1.05rem] w-[2.12rem] h-[2.12rem] bg-red-900 transform rotate-45 -z-30"></div>
                                 )}
                             </div>
                         </Tab>

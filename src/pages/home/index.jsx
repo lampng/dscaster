@@ -2,7 +2,7 @@ import { Carousel } from '@material-tailwind/react';
 import TabRP from '/src/components/Tabs/TabRP';
 import Quick from '../../components/Quick';
 
-function home() {
+function Home() {
     const res3xl = `3xl:px-[425px]`;
     const res2xl = `2xl:px-[225px]`;
     const resxl = `xl:px-[125px]`;
@@ -82,4 +82,4 @@ function home() {
         </div>
     );
 }
-export default home;
+export default Home;
