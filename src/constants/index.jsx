@@ -458,8 +458,8 @@ const Light_Duty_Caster_DATA = [
                     { text: 'Bearing', image: '../Product/Bearing.jpg' },
                     { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
                     { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -528,14 +528,14 @@ const Light_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -600,14 +600,14 @@ const Light_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -690,14 +690,14 @@ const Light_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -790,14 +790,14 @@ const Light_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -886,14 +886,14 @@ const Light_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -968,14 +968,14 @@ const Medium_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    // { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    // { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -1042,14 +1042,14 @@ const Medium_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    // { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    // { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -1097,14 +1097,14 @@ const Medium_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    // { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    // { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -1155,14 +1155,14 @@ const Medium_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    // { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    // { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -1215,14 +1215,14 @@ const Heavy_Duty_Caster_DATA = [
             CasterSpecification: {
                 headers: [
                     { text: '제품명', unit: '(Model)' },
-                    { text: 'Wheel Dia', unit: '(mm)', image: '/src/assets/content/WheelDia.jpg' },
-                    { text: 'Tread Width', unit: '(mm)', image: '/src/assets/content/TreadWidth.jpg' },
-                    { text: 'Wheel Material', image: '/src/assets/content/WheelMaterial.jpg' },
-                    { text: 'Bearing', image: '/src/assets/content/Bearing.jpg' },
-                    { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight1.jpg' },
-                    // { text: 'Load Height', unit: '(mm)', image: '/src/assets/content/LoadHeight2.jpg' },
-                    { text: 'Swivel Radius', unit: '(mm)', image: '/src/assets/content/SwivelRadius.jpg' },
-                    { text: 'Load Capacity', unit: '(kg)', image: '/src/assets/content/LoadCapacity.jpg' },
+                    { text: 'Wheel Dia', unit: '(mm)', image: '../Product/WheelDia.jpg' },
+                    { text: 'Tread Width', unit: '(mm)', image: '../Product/TreadWidth.jpg' },
+                    { text: 'Wheel Material', image: '../Product/WheelMaterial.jpg' },
+                    { text: 'Bearing', image: '../Product/Bearing.jpg' },
+                    { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight1.jpg' },
+                    // { text: 'Load Height', unit: '(mm)', image: '../Product/LoadHeight2.jpg' },
+                    { text: 'Swivel Radius', unit: '(mm)', image: '../Product/SwivelRadius.jpg' },
+                    { text: 'Load Capacity', unit: '(kg)', image: '../Product/LoadCapacity.jpg' },
                     { text: '박스당수량', unit: 'PCS' },
                 ],
                 rows: [
@@ -2717,7 +2717,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/QM40_50/160517043416_10.PNG',
+                    image: '../Product/LevelingCaster/QM40_50/160517043416_10.png',
                 },
             ],
         },
@@ -2779,7 +2779,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/QM80_600/160517043522_10.PNG',
+                    image: '../Product/LevelingCaster/QM80_600/160517043522_10.png',
                 },
             ],
         },
@@ -2810,7 +2810,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/QM100_1000/160517043554_10.PNG',
+                    image: '../Product/LevelingCaster/QM100_1000/160517043554_10.png',
                 },
             ],
         },
@@ -2846,7 +2846,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/QM120_1300/160517043631_10.PNG',
+                    image: '../Product/LevelingCaster/QM120_1300/160517043631_10.png',
                 },
             ],
         },
@@ -2880,7 +2880,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/INCH_MASTER1/160517043707_10.PNG',
+                    image: '../Product/LevelingCaster/INCH_MASTER1/160517043707_10.png',
                 },
             ],
         },
@@ -2922,7 +2922,7 @@ const Leveling_Caster_DATA = [
             },
             spec: [
                 {
-                    image: '../Product/LevelingCaster/INCH_MASTER2/160517043737_10.PNG',
+                    image: '../Product/LevelingCaster/INCH_MASTER2/160517043737_10.png',
                 },
             ],
         },
