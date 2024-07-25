@@ -15,10 +15,10 @@ function Link({ header }) {
     const handleMouseMove = (e) => {
         const rect = ref.current.getBoundingClientRect();
         const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top - 70;
+        const mouseY = e.clientY - rect.top;
 
         x.set(mouseX);
-        y.set(mouseY);
+        y.set(mouseY - 70);
     };
 
     return (
