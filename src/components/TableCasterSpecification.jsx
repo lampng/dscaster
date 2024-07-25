@@ -1,5 +1,5 @@
-import { useMotionValue, motion, useSpring, useTransform } from 'framer-motion';
-import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
+import React from 'react';
 import Link from './Link';
 
 function TableCasterSpecification({ headers, rows, commonPCS }) {

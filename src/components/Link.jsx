@@ -27,14 +27,14 @@ function Link({ header }) {
             onMouseMove={handleMouseMove}
             initial="initial"
             whileHover="whileHover"
-            className="group flex items-center  justify-center"
+            className="group flex items-center justify-center"
         >
             <div className="flex flex-col items-center">
                 <motion.span>{header.text}</motion.span>
                 {header.unit && <motion.span className="text-xs">{header.unit}</motion.span>}
             </div>
             {header.image && (
-                <div className="w-[100px] h-[50px] absolute pointer-events-none">
+                <motion.div className="w-[100px] h-[50px] absolute pointer-events-none">
                     <motion.img
                         style={{
                             top,
@@ -45,14 +45,16 @@ function Link({ header }) {
                         width={200}
                         height={200}
                         variants={{
+                            initial: { scale: 0, rotate: "0deg" },
                             whileHover: { scale: 1, rotate: '0deg' },
                         }}
                         transition={{ duration: 0 }}
                         src={header.image}
+                        
                         className="absolute z-0 object-cover border-2 border-black"
-                        alt={`${header.text} image`}
+                        alt={``}
                     />
-                </div>
+                </motion.div>
             )}
         </motion.div>
     );
