@@ -1,6 +1,6 @@
 import { useMotionValue, motion, useSpring, useTransform } from 'framer-motion';
 import React, { useRef } from 'react';
-// import Link from './Link';
+
 function Link({ header }) {
     const ref = useRef(null);
 
@@ -19,7 +19,7 @@ function Link({ header }) {
         const mouseY = e.clientY - rect.top;
 
         x.set(mouseX);
-        y.set(mouseY - 70);
+        y.set(mouseY); //
     };
 
     return (
@@ -28,14 +28,14 @@ function Link({ header }) {
             onMouseMove={handleMouseMove}
             initial="initial"
             whileHover="whileHover"
-            className="group flex items-center justify-center *:h-full"
+            className="group flex w-fit m-auto "
         >
             <div className="flex flex-col items-center">
                 <motion.span>{header.text}</motion.span>
                 {header.unit && <motion.span className="text-xs">{header.unit}</motion.span>}
             </div>
             {header.image && (
-                <motion.div className="w-[100px] h-[50px] absolute pointer-events-none">
+                <motion.div className="w-[100px] h-[100px] -top-[70px] absolute pointer-events-none">
                     <motion.img
                         style={{
                             top,
@@ -46,20 +46,20 @@ function Link({ header }) {
                         width={200}
                         height={200}
                         variants={{
-                            initial: { scale: 0, rotate: "0deg" },
+                            initial: { scale: 0, rotate: '0deg' },
                             whileHover: { scale: 1, rotate: '0deg' },
                         }}
                         transition={{ duration: 0 }}
                         src={header.image}
-                        
                         className="absolute z-0 object-cover border-2 border-black"
-                        alt={``}
+                        alt=""
                     />
                 </motion.div>
             )}
         </motion.div>
     );
 }
+
 function TableCasterSpecification({ headers, rows, commonPCS }) {
     const pcsIndex = headers.findIndex((header) => header.unit === 'PCS');
 
@@ -70,7 +70,7 @@ function TableCasterSpecification({ headers, rows, commonPCS }) {
         <div className="relative">
             <table className="min-w-full divide-y divide-gray-200 border border-t-2 border-t-red-900">
                 <thead className="bg-gray-100">
-                    <tr className=''>
+                    <tr className="">
                         {headers.map((header, index) => (
                             <motion.th
                                 key={index}
@@ -119,7 +119,6 @@ function TableCasterSpecification({ headers, rows, commonPCS }) {
                                         }
                                     }
                                 } else {
-                                    // Xử lý xuống dòng cho các cột cần thiết
                                     if (shouldLineBreak(headerText) && typeof cell === 'string' && cell.includes(' ')) {
                                         const parts = cell.split(' ');
                                         return (
