@@ -35,7 +35,7 @@ function Link({ header }) {
                 {header.unit && <motion.span className="text-xs">{header.unit}</motion.span>}
             </div>
             {header.image && (
-                <motion.div className="w-[100px] h-[100px] -top-[70px] absolute pointer-events-none">
+                <motion.div className="w-[100px] h-[100px] left-[50px] -top-[70px] absolute pointer-events-none">
                     <motion.img
                         style={{
                             top,

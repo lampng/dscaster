@@ -10,17 +10,8 @@ import LoadCapacity from '/src/pages/data/tabItem/LoadCapacity';
 import CasterNumberingSystem from '/src/pages/data/tabItem/CasterNumberingSystem';
 import Usage from '/src/pages/data/tabItem/Usage';
 // ! Product
-import Light_Duty_Caster from '/src/pages/product/tabItem/Light_Duty_Caster';
-import Medium_Duty_Caster from '/src/pages/product/tabItem/Medium_Duty_Caster';
-import Heavy_Duty_Caster from '/src/pages/product/tabItem/Heavy_Duty_Caster';
-import Super_Heavy_Duty_Caster from '/src/pages/product/tabItem/Super_Heavy_Duty_Caster';
-import Stainless_Steel_Caster from '/src/pages/product/tabItem/Stainless_Steel_Caster';
-import Heat_ResistingLow_Temperature_Caster from '/src/pages/product/tabItem/Heat_ResistingLow_Temperature_Caster';
-import Medical_Equipment_Caster from '/src/pages/product/tabItem/Medical_Equipment_Caster';
-import LowNoise_Caster from '/src/pages/product/tabItem/LowNoise_Caster';
-import Special_Caster from '/src/pages/product/tabItem/Special_Caster';
-import Leveling_Caster from '/src/pages/product/tabItem/Leveling_Caster';
-import Leveling_Foot from '/src/pages/product/tabItem/Leveling_Foot';
+import TabItem from '/src/pages/product/tabItem/index'
+
 // ! Introduction
 export const IntroductionListMenuItems = [
     {
@@ -141,6 +132,170 @@ export const TabData = [
         labelDesc: 'Usage',
         value: 'Usage',
         content: <Usage />,
+    },
+];
+export const CasterNumberingSystem_Data = [
+    {
+        image: '../CasterData/wheels_01.jpg',
+        CS: 'S R',
+        CS_des_eng: 'Soft Rubber',
+        CS_des_kor: '연질고무',
+    },
+    {
+        image: '../CasterData/wheels_02.jpg',
+        CS: 'EPU',
+        CS_des_eng: 'Elastic Poly Urethane',
+        CS_des_kor: '액상우레탄 휠+볼베어링',
+    },
+    {
+        image: '../CasterData/wheels_03.jpg',
+        CS: 'SRB',
+        CS_des_eng: 'Soft Rubber with Ball bearing',
+        CS_des_kor: '연질고무+베어링',
+    },
+    {
+        image: '../CasterData/wheels_04.jpg',
+        CS: 'PCB',
+        CS_des_eng: 'Poly Vinyl Chloride insert',
+        CS_des_kor: 'PVC-베어링타입',
+    },
+    {
+        image: '../CasterData/wheels_05.jpg',
+        CS: 'LDP',
+        CS_des_eng: 'Light Duty Plastic',
+        CS_des_kor: '경량용 플라스틱',
+    },
+    {
+        image: '../CasterData/wheels_06.jpg',
+        CS: 'PUA',
+        CS_des_eng: 'Poly Urethane tread Alum core',
+        CS_des_kor: '우레탄휠 알루미늄 코어',
+    },
+    {
+        image: '../CasterData/wheels_07.jpg',
+        CS: 'HDP',
+        CS_des_eng: 'Heavy Duty Plastic',
+        CS_des_kor: '중량용 플라스틱',
+    },
+    {
+        image: '../CasterData/wheels_08.jpg',
+        CS: 'PUF',
+        CS_des_eng: 'Poly Urethane tread Plastic core',
+        CS_des_kor: '폴리우레탄 플라스틱 타입',
+    },
+    {
+        image: '../CasterData/wheels_09.jpg',
+        CS: 'PUB',
+        CS_des_eng: 'Poly Urethane with Ball bearing',
+        CS_des_kor: '폴리우레탄+볼베어링',
+    },
+    {
+        image: '../CasterData/wheels_10.jpg',
+        CS: 'PUI',
+        CS_des_eng: 'Poly Urethane tread Iron core',
+        CS_des_kor: '주물 고무타입',
+    },
+    {
+        image: '../CasterData/wheels_11.jpg',
+        CS: 'PUN',
+        CS_des_eng: 'Poly Urethane with Nylon bearing',
+        CS_des_kor: '폴리우레탄+나일론베어링',
+    },
+    {
+        image: '../CasterData/wheels_12.jpg',
+        CS: 'NYL',
+        CS_des_eng: 'Nylon',
+        CS_des_kor: '나일론',
+    },
+    {
+        image: '../CasterData/wheels_13.jpg',
+        CS: 'PVB',
+        CS_des_eng: 'Poly Vinyl chloride with Ball bearing',
+        CS_des_kor: 'PVC+볼베어링',
+    },
+    {
+        image: '../CasterData/wheels_14.jpg',
+        CS: 'NGM',
+        CS_des_eng: 'Nylon Glass Mineral',
+        CS_des_kor: '경량용 내열성',
+    },
+    {
+        image: '../CasterData/wheels_15.jpg',
+        CS: 'PVN',
+        CS_des_eng: 'Poly Vinyl chloride with Nylon bearing',
+        CS_des_kor: 'PVC+나일론베어링',
+    },
+    {
+        image: '../CasterData/wheels_16.jpg',
+        CS: 'PHN',
+        CS_des_eng: 'Phenolic Caster',
+        CS_des_kor: '중량용 내열성',
+    },
+    {
+        image: '../CasterData/wheels_17.jpg',
+        CS: 'PVP',
+        CS_des_eng: 'Poly Vinyl chloride tread PI',
+        CS_des_kor: 'PVC+적용',
+    },
+    {
+        image: '../CasterData/wheels_18.jpg',
+        CS: 'VGC',
+        CS_des_eng: 'V Grooved Caster',
+        CS_des_kor: 'V형 윤활',
+    },
+    {
+        image: '../CasterData/wheels_19.jpg',
+        CS: 'MRB',
+        CS_des_eng: 'Thermoplastic Rubber with Ball bearing',
+        CS_des_kor: '열가소성 고무 타일',
+    },
+    {
+        image: '../CasterData/wheels_20.jpg',
+        CS: 'UGC',
+        CS_des_eng: 'U Grooved Caster',
+        CS_des_kor: 'U형 윤활',
+    },
+    {
+        image: '../CasterData/wheels_21.jpg',
+        CS: 'MRP',
+        CS_des_eng: 'Thermoplastic Rubber tread',
+        CS_des_kor: '열가소성 고무 타일',
+    },
+    {
+        image: '../CasterData/wheels_22.jpg',
+        CS: 'P T',
+        CS_des_eng: 'Pneumatic Tire',
+        CS_des_kor: '에어 내기',
+    },
+    {
+        image: '../CasterData/wheels_23.jpg',
+        CS: 'ELA',
+        CS_des_eng: 'Elastomer tread Plastic core',
+        CS_des_kor: '쿠션용 플라스틱 코어',
+    },
+    {
+        image: '../CasterData/wheels_24.jpg',
+        CS: 'F P',
+        CS_des_eng: 'Foam Poly urethane',
+        CS_des_kor: '발포우레탄 타이어',
+    },
+    {
+        image: '../CasterData/wheels_25.jpg',
+        CS: 'ELP',
+        CS_des_eng: 'Elastomer tread Plastic core',
+        CS_des_kor: '쿠션용 플라스틱 코어',
+    },
+    {
+        image: '../CasterData/wheels_26.jpg',
+        CS: 'MCN',
+        CS_des_eng: 'Monocore Cast Nylon',
+        CS_des_kor: 'MCL캐스터',
+    },
+    {
+        image: '../CasterData/wheels_27.jpg',
+        CS: 'NSR',
+        CS_des_eng: 'Natural Soft Rubber tread',
+        CS_des_kor: '천연 연질고무 트레드',
     },
 ];
 // ! Product
@@ -2999,45 +3154,45 @@ const Leveling_Foot_DATA = [
         },
     },
 ];
-export const TabProduct = [
+export const TabItem_Product = [
     {
         label: '경하중용캐스터',
         labelDesc: 'Light-Duty Caster',
         value: 'Light-Duty',
         content: (
-            <Light_Duty_Caster label={'경하중용캐스터'} labelDesc={'Light-Duty Caster'} DATA={Light_Duty_Caster_DATA} />
+            <TabItem label={'경하중용캐스터'} labelDesc={'Light-Duty Caster'} DATA={Light_Duty_Caster_DATA} />
         ),
     },
     {
         label: '중간하중용 캐스터',
         labelDesc: 'Medium-Duty Caster',
         value: 'Medium-Duty',
-        content: <Medium_Duty_Caster label={'중간하중용 캐스터'} labelDesc={'Medium-Duty Caster'} DATA={Medium_Duty_Caster_DATA}/>,
+        content: <TabItem label={'중간하중용 캐스터'} labelDesc={'Medium-Duty Caster'} DATA={Medium_Duty_Caster_DATA}/>,
     },
     {
         label: '중하중용 캐스터',
         labelDesc: 'Heavy-Duty Caster',
         value: 'Heavy-Duty',
-        content: <Heavy_Duty_Caster label={'중하중용 캐스터'} labelDesc={'Heavy-Duty Caster'} DATA={Heavy_Duty_Caster_DATA}/>,
+        content: <TabItem label={'중하중용 캐스터'} labelDesc={'Heavy-Duty Caster'} DATA={Heavy_Duty_Caster_DATA}/>,
     },
     {
         label: '고하중용 캐스터',
         labelDesc: 'Super Heavy-Duty Caster',
         value: 'Super-Heavy-Duty',
-        content: <Super_Heavy_Duty_Caster label={'고하중용 캐스터'} labelDesc={'Super Heavy-Duty Caster'} DATA={Super_Heavy_Duty_Caster_DATA}/>,
+        content: <TabItem label={'고하중용 캐스터'} labelDesc={'Super Heavy-Duty Caster'} DATA={Super_Heavy_Duty_Caster_DATA}/>,
     },
     {
         label: '스테인리스 캐스터',
         labelDesc: 'Stainless Steel Caster',
         value: 'StainlessiSteel',
-        content: <Stainless_Steel_Caster label="스테인리스 캐스터" labelDesc="Stainless Steel Caster" DATA={Stainless_Steel_Caster_DATA}/>,
+        content: <TabItem label="스테인리스 캐스터" labelDesc="Stainless Steel Caster" DATA={Stainless_Steel_Caster_DATA}/>,
     },
     {
         label: '내열성/내한성 캐스터',
         labelDesc: 'Heat-Resisting/Low Temperature Caster',
         value: 'Heat-Resisting',
         content: (
-            <Heat_ResistingLow_Temperature_Caster
+            <TabItem
                 label="내열성/내한성 캐스터"
                 labelDesc="Heat-Resisting/Low Temperature Caster"
             DATA={Heat_ResistingLow_Temperature_Caster_DATA}/>
@@ -3047,34 +3202,33 @@ export const TabProduct = [
         label: '의료용 캐스터',
         labelDesc: 'Medical Equipment Caster',
         value: 'Medical-Equipment',
-        content: <Medical_Equipment_Caster label="의료용 캐스터" labelDesc="Medical Equipment Caster" DATA={Medical_Equipment_Caster_DATA}/>,
+        content: <TabItem label="의료용 캐스터" labelDesc="Medical Equipment Caster" DATA={Medical_Equipment_Caster_DATA}/>,
     },
     {
         label: '저소음 캐스터',
         labelDesc: 'Low Noise Caster',
         value: 'Low-Noise',
-        content: <LowNoise_Caster label="저소음 캐스터" labelDesc="Low Noise Caster" DATA={LowNoise_Caster_DATA}/>,
+        content: <TabItem label="저소음 캐스터" labelDesc="Low Noise Caster" DATA={LowNoise_Caster_DATA}/>,
     },
     {
         label: '특수 목적용 캐스터',
         labelDesc: 'Special Caster',
         value: 'Special-Caster',
-        content: <Special_Caster label="특수 목적용 캐스터" labelDesc="Special Caster" DATA={Special_Caster_DATA}/>,
+        content: <TabItem label="특수 목적용 캐스터" labelDesc="Special Caster" DATA={Special_Caster_DATA}/>,
     },
     {
         label: '높낮이조절 캐스터',
         labelDesc: 'Leveling Caster',
         value: 'Leveling-Caster',
-        content: <Leveling_Caster label="높낮이조절 캐스터" labelDesc="Leveling Caster" DATA={Leveling_Caster_DATA}/>,
+        content: <TabItem label="높낮이조절 캐스터" labelDesc="Leveling Caster" DATA={Leveling_Caster_DATA}/>,
     },
     {
         label: '높낮이 조절자',
         labelDesc: 'Leveling Foot',
         value: 'Leveling-Foot',
-        content: <Leveling_Foot label="높낮이 조절자" labelDesc="Leveling Foot" DATA={Leveling_Foot_DATA}/>,
+        content: <TabItem label="높낮이 조절자" labelDesc="Leveling Foot" DATA={Leveling_Foot_DATA}/>,
     },
-];
-
+]
 // ! Customer
 export const CustomerListMenuItems = [
     {

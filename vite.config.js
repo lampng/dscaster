@@ -12,14 +12,9 @@ export default defineConfig({
             emitFiles: true,
             fileName: 'assets/[name][hash][extname]',
         }),
-        copy({
-            targets: [{ src: 'src/assets/**/*.{jpg,png,gif}', dest: 'dist' }],
-            hook: 'writeBundle',
-            flatten: false,
-        }),
     ],
     base: '/',
     build: {
-        chunkSizeWarningLimit: 1000,
+        chunkSizeWarningLimit: 1500,
     },
 });

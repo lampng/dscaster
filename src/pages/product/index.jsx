@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 const Tabs = lazy(() => import('../../components/Tabs/Tabs'));
-import { TabProduct } from '../../constants';
+import { TabItem_Product } from '../../constants';
 
 function Product() {
     const res3xl = `3xl:px-[425px]`;
@@ -13,8 +13,8 @@ function Product() {
         <body className={`flex h-auto ${res3xl} ${res2xl} ${resxl} ${reslg} ${resmd} ${ressm}`}>
             <Suspense fallback={<div>Loading...</div>}>
                 <Tabs
-                    data={TabProduct}
-                    dfTab={TabProduct[0].value}
+                    data={TabItem_Product}
+                    dfTab={TabItem_Product[0].value}
                     site="회사소개"
                     siteDesc="Products"
                     href="product"

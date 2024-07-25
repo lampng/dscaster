@@ -1,7 +1,8 @@
 import React from 'react';
 import { Typography } from '@material-tailwind/react';
 import DrawerProduct from '/src/components/DrawerProduct';
-function Light_Duty_Caster({ label, labelDesc, DATA }) {
+
+function index({ label, labelDesc, DATA }) {
     return (
         <div>
             <div className="flex items-center gap-1 my-2">
@@ -26,4 +27,4 @@ function Light_Duty_Caster({ label, labelDesc, DATA }) {
     );
 }
 
-export default Light_Duty_Caster;
+export default index;

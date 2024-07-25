@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 function LoadCapacity() {
-  return (
-    <div>LoadCapacity</div>
-  )
+    return (
+        <div className="select-none">
+            <div
+                alt=""
+                className="bg-[url('/Public/CasterData/sub02_img03.png')] bg-no-repeat bg-auto object-contain bg-center h-[400px] mx-auto  border-4 rounded-lg"
+            />
+        </div>
+    );
 }
 
-export default LoadCapacity
+export default LoadCapacity;

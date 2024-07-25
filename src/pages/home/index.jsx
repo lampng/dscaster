@@ -1,5 +1,6 @@
+import React, { lazy, Suspense } from 'react';
 import { Carousel } from '@material-tailwind/react';
-import TabRP from '/src/components/Tabs/TabRP';
+const TabRP = lazy(() => import('/src/components/Tabs/TabRP'));
 import Quick from '../../components/Quick';
 
 function Home() {
@@ -50,7 +51,9 @@ function Home() {
                     className="h-full w-full object-cover select-none"
                 />
             </Carousel>
-            <TabRP />
+            <Suspense fallback={<div>Loading...</div>}>
+                <TabRP />
+            </Suspense>
             <ul
                 className={`flex px-[425px] 2xl:px-[225px] py-8 ${res2xl} ${resxl} ${reslg} ${resmd} ${res3xl} md:justify-between ${ressm} sm:justify-between sm:px-5 sm:py-3`}
             >

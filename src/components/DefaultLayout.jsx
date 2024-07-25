@@ -6,7 +6,7 @@ function DefaultLayout({ children }) {
         <>
             <div className="w-full h-full p-0 m-0 overflow-hidden">
                 <Navbar />
-                <div className="">{children}</div>
+                <div>{children}</div>
                 <Footer />
                 <BackToTop />
             </div>

@@ -28,7 +28,7 @@ function NavbarListItem({ ListMenuItems, Label, LabelDesc, href, div, ul, li }) 
                         </div>
                     </>
                 ) : (
-                    <a className="flex items-center font-bold">
+                    <div className="flex items-center font-bold">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -43,7 +43,7 @@ function NavbarListItem({ ListMenuItems, Label, LabelDesc, href, div, ul, li }) 
                         </svg>
                         {item.title}
                         <span className="text-xs font-medium text-blue-gray-500 pl-1">{item.description}</span>
-                    </a>
+                    </div>
                 )}
             </MenuItem>
         </Link>
