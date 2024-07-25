@@ -1,5 +1,6 @@
 import { useMotionValue, motion, useSpring, useTransform } from 'framer-motion';
 import React, { useRef, useState } from 'react';
+import Link from './Link';
 
 function TableCasterSpecification({ headers, rows, commonPCS }) {
     const pcsIndex = headers.findIndex((header) => header.unit === 'PCS');
@@ -7,85 +8,17 @@ function TableCasterSpecification({ headers, rows, commonPCS }) {
     const lineBreakColumns = ['MODEL', '허용하중', 'BOLT&NUT', '하부', '표면처리'];
 
     const shouldLineBreak = (headerText) => lineBreakColumns.includes(headerText);
-
-    const ref = useRef(null);
-
-    const [hoveredHeader, setHoveredHeader] = useState(null);
-
-    const x = useMotionValue(0);
-    const y = useMotionValue(0);
-
-    const mouseXSpring = useSpring(x);
-    const mouseYSpring = useSpring(y);
-
-    const top = useTransform(mouseYSpring, (value) => `${value * 100 + 50}%`);
-    const left = useTransform(mouseXSpring, (value) => `${value * 100 + 50}%`);
-
-    const handleMouseMove = (e) => {
-        const rect = ref.current.getBoundingClientRect();
-
-        const width = rect.width;
-        const height = rect.height;
-
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
-
-        const xPct = mouseX / width - 0.5;
-        const yPct = mouseY / height - 0.5;
-
-        x.set(xPct);
-        y.set(yPct);
-    };
-
     return (
-        <div ref={ref} onMouseMove={handleMouseMove} className="relative">
+        <div className="relative">
             <table className="min-w-full divide-y divide-gray-200 border border-t-2 border-t-red-900">
                 <thead className="bg-gray-100">
                     <tr>
                         {headers.map((header, index) => (
                             <motion.th
                                 key={index}
-                                onMouseEnter={() => setHoveredHeader(index)}
-                                onMouseLeave={() => setHoveredHeader(null)}
                                 className="group relative px-2 py-1 text-center text-[12px] font-bold text-gray-800 border"
                             >
-                                {typeof header === 'string' ? (
-                                    header
-                                ) : (
-                                    <div className="select-none">
-                                        <div className="flex flex-col items-center">
-                                            <span>{header.text}</span>
-                                            {header.unit && <span className="text-xs">{header.unit}</span>}
-                                        </div>
-
-                                        {hoveredHeader === index && header.image && (
-                                            <motion.div
-                                                className="fixed pointer-events-none"
-                                                initial={{ opacity: 0 }}
-                                                animate={{
-                                                    opacity: 1,
-                                                    translateX: '50%',
-                                                    translateY: '50%',
-                                                    width: 500,
-                                                    height: 500,
-                                                }}
-                                                style={{
-                                                    top,
-                                                    left,
-                                                    translateX: '50%',
-                                                    translateY: '50%',
-                                                }}
-                                                transition={{ duration: 0 }}
-                                            >
-                                                <motion.img
-                                                    src={header.image}
-                                                    className="absolute z-10 border-2 object-cover border-black"
-                                                    alt={header.text}
-                                                />
-                                            </motion.div>
-                                        )}
-                                    </div>
-                                )}
+                                {typeof header === 'string' ? header : <Link header={header} />}
                             </motion.th>
                         ))}
                     </tr>

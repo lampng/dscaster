@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
 function Usage() {
-  return (
-    <div>Usage</div>
-  )
+    return (
+    
+        <></>
+    );
 }
 
-export default Usage
+export default Usage;
