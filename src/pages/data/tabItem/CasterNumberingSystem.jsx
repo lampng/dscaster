@@ -7,7 +7,7 @@ function CasterNumberingSystem() {
     <div className="select-none">
             <div
                 alt=""
-                className="bg-[url('/Public/CasterData/sub02_img04.png')] bg-no-repeat bg-auto object-contain bg-center h-[160px]  border-4 rounded-lg"
+                className="bg-[url('../CasterData/sub02_img04.png')] bg-no-repeat bg-auto object-contain bg-center h-[160px]  border-4 rounded-lg"
             />
             <div className="flex items-center gap-1 my-2">
                 <div className="w-5 h-5 rounded-full bg-white border-4 border-red-900" />

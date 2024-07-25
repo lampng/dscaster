@@ -5,7 +5,7 @@ function LoadCapacity() {
         <div className="select-none">
             <div
                 alt=""
-                className="bg-[url('/Public/CasterData/sub02_img03.png')] bg-no-repeat bg-auto object-contain bg-center h-[400px] mx-auto  border-4 rounded-lg"
+                className="bg-[url('../CasterData/sub02_img03.png')] bg-no-repeat bg-auto object-contain bg-center h-[400px] mx-auto  border-4 rounded-lg"
             />
         </div>
     );
