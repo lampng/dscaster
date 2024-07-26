@@ -138,7 +138,7 @@ function DrawerProduct({ image, id, des, label, labelDesc }) {
                                                 key={index}
                                                 src={item.image}
                                                 alt={`spec image ${index + 1}`}
-                                                className={`max-w-[700px] h-auto object-contain`}
+                                                className={`w-max h-auto object-contain`}
                                             />
                                         ))}
                                 </div>
