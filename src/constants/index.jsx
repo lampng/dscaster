@@ -11,6 +11,8 @@ import CasterNumberingSystem from '/src/pages/data/tabItem/CasterNumberingSystem
 import Usage from '/src/pages/data/tabItem/Usage';
 // ! Product
 import TabItem from '/src/pages/product/tabItem/index'
+// ! Customer
+import Inquiry from '/src/pages/customer/tabItem/Inquiry'
 
 // ! Introduction
 export const IntroductionListMenuItems = [
@@ -74,31 +76,31 @@ export const DataListMenuItems = [
     {
         title: '캐스터용어',
         description: 'Caster Nomenclature',
-        to: '/caster-data/Casternomenclature',
+        to: '/data/Casternomenclature',
         value: 'Casternomenclature',
     },
     {
         title: '플레이트용어',
         description: 'Plate Nomenclature',
-        to: '/caster-data/Platenomenclature',
+        to: '/data/Platenomenclature',
         value: 'Platenomenclature',
     },
     {
         title: '허용하중계산법 ',
         description: 'Load Capacity',
-        to: '/caster-data/Loadcapacity',
+        to: '/data/Loadcapacity',
         value: 'Loadcapacity',
     },
     {
         title: '표기방법및용어',
         description: 'Caster Numbering System',
-        to: '/caster-data/Casternumberingsystem',
+        to: '/data/Casternumberingsystem',
         value: 'Casternumberingsystem',
     },
     {
         title: '주의사항',
         description: 'Usage',
-        to: '/caster-data/Usage',
+        to: '/data/Usage',
         value: 'Usage',
     },
 ];
@@ -3256,3 +3258,11 @@ export const CustomerListMenuItems = [
         to: '/customer/Q&A',
     },
 ];
+export const TabCustomer = [
+    {
+        label: '온라인견적문의',
+        labelDesc: 'Inquiry',
+        value: 'Inquiry',
+        content: <Inquiry label="온라인견적문의" labelDesc="Inquiry"/>,
+    },
+]
