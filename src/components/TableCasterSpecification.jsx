@@ -63,7 +63,7 @@ function Link({ header }) {
 function TableCasterSpecification({ headers, rows, commonPCS }) {
     const pcsIndex = headers.findIndex((header) => header.unit === 'PCS');
 
-    const lineBreakColumns = ['MODEL', '허용하중', 'BOLT&NUT', '하부', '표면처리'];
+    const lineBreakColumns = ['MODEL', '허용하중', 'BOLT&NUT', '하부', '표면처리', '하부패드', 'G', 'Ф', 'C'];
 
     const shouldLineBreak = (headerText) => lineBreakColumns.includes(headerText);
     return (

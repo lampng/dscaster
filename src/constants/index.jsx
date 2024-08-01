@@ -10,9 +10,9 @@ import LoadCapacity from '/src/pages/data/tabItem/LoadCapacity';
 import CasterNumberingSystem from '/src/pages/data/tabItem/CasterNumberingSystem';
 import Usage from '/src/pages/data/tabItem/Usage';
 // ! Product
-import TabItem from '/src/pages/product/tabItem/index'
+import TabItem from '/src/pages/product/tabItem/index';
 // ! Customer
-import Inquiry from '/src/pages/customer/tabItem/Inquiry'
+import Inquiry from '/src/pages/customer/tabItem/Inquiry';
 
 // ! Introduction
 export const IntroductionListMenuItems = [
@@ -383,7 +383,6 @@ export const ProductListMenuItems = [
 ];
 // ! Light Duty Caster
 const Light_Duty_Caster_DATA = [
-    // ! 1
     {
         image: '../Product/LightDutyCaster/DS1010SERIES/160425105427_01.jpg',
         id: 'DS 1010 SERIES',
@@ -1392,9 +1391,11 @@ const Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec:[ {
-                image: '../Product/HeavyDutyCaster/DS40SERIES/160517041536_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/HeavyDutyCaster/DS40SERIES/160517041536_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 2
@@ -1457,9 +1458,11 @@ const Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec:[ {
-                image: '../Product/HeavyDutyCaster/DS41SERIES/160517041630_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/HeavyDutyCaster/DS41SERIES/160517041630_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 3
@@ -1502,9 +1505,11 @@ const Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/HeavyDutyCaster/DS42SERIES/160517041727_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/HeavyDutyCaster/DS42SERIES/160517041727_10.PNG.jpg',
+                },
+            ],
         },
     },
 ];
@@ -1579,9 +1584,11 @@ const Super_Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec:[ {
-                image: '../Product/SuperHeavyDutyCaster/DS43SERIES/160517041822_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/SuperHeavyDutyCaster/DS43SERIES/160517041822_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 2
@@ -1622,9 +1629,11 @@ const Super_Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/SuperHeavyDutyCaster/DS46SERIESMCNylon/160517041917_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/SuperHeavyDutyCaster/DS46SERIESMCNylon/160517041917_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 3
@@ -1665,9 +1674,11 @@ const Super_Heavy_Duty_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/SuperHeavyDutyCaster/DS47SERIESMCNylonTwinWheel/160517042015_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/SuperHeavyDutyCaster/DS47SERIESMCNylonTwinWheel/160517042015_10.PNG.jpg',
+                },
+            ],
         },
     },
 ];
@@ -1756,9 +1767,11 @@ const Stainless_Steel_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/StainlessSteelCaster/DS22SERIESLightDuty/160517042112_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/StainlessSteelCaster/DS22SERIESLightDuty/160517042112_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 2
@@ -1834,9 +1847,11 @@ const Stainless_Steel_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/StainlessSteelCaster/DS33SERIESHeavyDuty/160517042148_10.PNG.jpg',
-            }],
+            spec: [
+                {
+                    image: '../Product/StainlessSteelCaster/DS33SERIESHeavyDuty/160517042148_10.PNG.jpg',
+                },
+            ],
         },
     },
 ];
@@ -1876,32 +1891,8 @@ const Heat_ResistingLow_Temperature_Caster_DATA = [
                 ],
                 rows: [
                     ['DS 2330 NGM', 75, 32, 'Nylon Glass Mineral', 'Plain', 105, 111, 73, 50, '-35°C ~ +220°C', 40],
-                    [
-                        'DS 2340 NGM',
-                        102,
-                        32,
-                        'Nylon Glass Mineral',
-                        'Plain',
-                        127,
-                        133,
-                        85,
-                        60,
-                        '-35°C ~ +220°C',
-                        30,
-                    ],
-                    [
-                        'DS 2350 NGM',
-                        127,
-                        32,
-                        'Nylon Glass Mineral',
-                        'Plain',
-                        157,
-                        163,
-                        100,
-                        70,
-                        '-35°C ~ +220°C',
-                        20,
-                    ],
+                    ['DS 2340 NGM', 102, 32, 'Nylon Glass Mineral', 'Plain', 127, 133, 85, 60, '-35°C ~ +220°C', 30],
+                    ['DS 2350 NGM', 127, 32, 'Nylon Glass Mineral', 'Plain', 157, 163, 100, 70, '-35°C ~ +220°C', 20],
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
@@ -2007,32 +1998,8 @@ const Heat_ResistingLow_Temperature_Caster_DATA = [
                 ],
                 rows: [
                     ['DS 2730 NGM', 75, 32, 'Nylon Glass Mineral', 'Plain', 105, 111, 73, 50, '-35°C ~ +220°C', 40],
-                    [
-                        'DS 2740 NGM',
-                        102,
-                        32,
-                        'Nylon Glass Mineral',
-                        'Plain',
-                        127,
-                        133,
-                        85,
-                        60,
-                        '-35°C ~ +220°C',
-                        30,
-                    ],
-                    [
-                        'DS 2750 NGM',
-                        127,
-                        32,
-                        'Nylon Glass Mineral',
-                        'Plain',
-                        157,
-                        163,
-                        100,
-                        70,
-                        '-35°C ~ +220°C',
-                        20,
-                    ],
+                    ['DS 2740 NGM', 102, 32, 'Nylon Glass Mineral', 'Plain', 127, 133, 85, 60, '-35°C ~ +220°C', 30],
+                    ['DS 2750 NGM', 127, 32, 'Nylon Glass Mineral', 'Plain', 157, 163, 100, 70, '-35°C ~ +220°C', 20],
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
@@ -2160,9 +2127,11 @@ const Medical_Equipment_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/MedicalEquipmentCaster/DS21SERIES_1/160518113642_10.PNG.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/MedicalEquipmentCaster/DS21SERIES_1/160518113642_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 2
@@ -2207,9 +2176,11 @@ const Medical_Equipment_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/MedicalEquipmentCaster/DS21SERIES_2/180308042118_10.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/MedicalEquipmentCaster/DS21SERIES_2/180308042118_10.jpg',
+                },
+            ],
         },
     },
     // ! 3
@@ -2296,9 +2267,11 @@ const Medical_Equipment_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/MedicalEquipmentCaster/DS24SERIES/160517042748_10.PNG.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/MedicalEquipmentCaster/DS24SERIES/160517042748_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 4
@@ -2383,9 +2356,11 @@ const Medical_Equipment_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/MedicalEquipmentCaster/DS25SERIES/160517042824_10.PNG.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/MedicalEquipmentCaster/DS25SERIES/160517042824_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 5
@@ -2439,13 +2414,15 @@ const Medical_Equipment_Caster_DATA = [
                 rows: [
                     ['DS 2840 MRB', 101, 25, 'Mirage Rubber', '6202ZZ', 132, 138, 79, 60, 30],
                     ['DS 2840 MRP', 101, 25, 'Mirage Rubber', 'Plain', 132, 138, 79, 40, 30],
-                    ['DS 2840 EPU', 103, 25, 'Elastic Poly Urethane', '608ZZ', 133, 139, 80, 60, 30]
+                    ['DS 2840 EPU', 103, 25, 'Elastic Poly Urethane', '608ZZ', 133, 139, 80, 60, 30],
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/MedicalEquipmentCaster/DS21SERIES_2/180308042118_10.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/MedicalEquipmentCaster/DS21SERIES_2/180308042118_10.jpg',
+                },
+            ],
         },
     },
 ];
@@ -2505,9 +2482,11 @@ const LowNoise_Caster_DATA = [
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec: [{
-                image: '../Product/LowNoiseCaster/DS26SERIESLD/160517042922_10.PNG.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/LowNoiseCaster/DS26SERIESLD/160517042922_10.PNG.jpg',
+                },
+            ],
         },
     },
     // ! 2
@@ -2547,13 +2526,15 @@ const LowNoise_Caster_DATA = [
                 rows: [
                     ['DS 2641 ELA', 101, 50, 'Elastomer', '6003ZZ', 141, 74, 150, 16],
                     ['DS 2651 ELA', 124, 51, 'Elastomer', '6003ZZ', 163, 92, 200, 10],
-                    ['DS 2661 ELA', 152, 52, 'Elastomer', '6003ZZ', 190, 109, 250, 10]
+                    ['DS 2661 ELA', 152, 52, 'Elastomer', '6003ZZ', 190, 109, 250, 10],
                 ],
                 // commonPCS: 'S-150 R-150 B/K-130',
             },
-            spec:[ {
-                image: '../Product/LowNoiseCaster/DS26SERIESHD/160517042958_10.PNG.jpg',
-            },]
+            spec: [
+                {
+                    image: '../Product/LowNoiseCaster/DS26SERIESHD/160517042958_10.PNG.jpg',
+                },
+            ],
         },
     },
 ];
@@ -3099,95 +3080,643 @@ const Leveling_Foot_DATA = [
             ],
             CasterSpecification: {
                 headers: [
-                    { text: 'MODEL'},
-                    { text: 'L1'},
-                    { text: 'L2'},
-                    { text: 'H'},
-                    { text: 'G'},
-                    { text: 'Ф'},
-                    { text: 'M', unit: '(m/m)'},
-                    { text: '허용하중', unit: '(KG/4EA)'},
-                    { text: 'BOLT&NUT'},
-                    { text: '하부'},
-                    { text: '하부패드'},
-                    { text: '표면처리'},
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '하부패드' },
+                    { text: '표면처리' },
                 ],
-                rows: [ 
-                    ['P-6 PS-6', '40', '51', '4', '7', 'Ф27', 'M61.0', '100 100', 'SM10C SUS304', 'SPC(2T) SUS304(2T)', '니켈도금', '포리싱(PL)'],
-                    ['P-6 PS-6', '40', '53', '4', '9', 'Ф37', 'M61.0', '100 100', 'SM10C SUS304', 'SPC(2.5T) SUS304(2.5T)', '니켈도금', '포리싱(PL)'],
-                    ['P-8 PS-8', '40', '54', '5', '9', 'Ф37', 'M81.25', '200 300', 'SM10C SUS304', 'SPC(2.5T) SUS304(2.5T)', '니켈도금', '포리싱(PL)'],
-                    ['P-8 PS-8', '80', '94', '5', '9', 'Ф37', 'M81.25', '200 300', 'SM10C SUS304', 'SPC(2.5T) SUS304(2.5T)', '니켈도금', '포리싱(PL)'],
-                    ['P-10 PS-10', '60', '80', '7', '13', 'Ф55', 'M101.5', '300 600', 'SM10C SUS304', 'SPC(2.5T) SUS304(2.5T)', '니켈도금', '포리싱(PL)'],
-                    ['P-10 PS-10', '100', '120', '7', '13', 'Ф55', 'M101.5', '300 600', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-12 PS-12', '60', '81', '8', '13', 'Ф55', 'M121.75', '500 800', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-12 PS-12', '90', '111', '8', '13', 'Ф55', 'M121.75', '500 800', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-12 PS-12', '120', '141', '8', '13', 'Ф55', 'M121.75', '500 800', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-12 PS-12', '150', '171', '8', '13', 'Ф55', 'M121.75', '500 800', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-12 PS-12', '200', '221', '8', '13', 'Ф55', 'M121.75', '500 800', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-14 PS-14', '110', '132', '9', '13', 'Ф55', 'M142.0', '800 1100', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-14 PS-14', '110', '137', '9', '18', 'Ф75', 'M142.0', '800 1100', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-16 PS-16', '30', '53', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-16 PS-16', '30', '58', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', '니켈도금', '포리싱(PL)'],
-                    ['P-16 PS-16', '50', '73', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '50', '78', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '70', '93', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '70', '98', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '80', '103', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '80', '108', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '100', '128', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '120', '143', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '100', '123', '10', '13', 'Ф55', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '130', '153', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '130', '158', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '120', '148', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '150', '173', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '150', '178', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '180', '203', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '180', '208', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '200', '223', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '200', '228', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '250', '273', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '250', '278', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '300', '323', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
-                    ['P-16 PS-16', '300', '328', '10', '18', 'Ф75', 'M162.0', '800 1200', 'SM10C SUS304', 'SPC(3T) SUS304(3T)', 'ps1', 'ps2'],
+                rows: [
+                    [
+                        'P-6 PS-6',
+                        '40',
+                        '51',
+                        '4',
+                        '7',
+                        'Ф27',
+                        'M61.0',
+                        '100 100',
+                        'SM10C SUS304',
+                        'SPC(2T) SUS304(2T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
+                    [
+                        'P-6 PS-6',
+                        '40',
+                        '53',
+                        '4',
+                        '9',
+                        'Ф37',
+                        'M61.0',
+                        '100 100',
+                        'SM10C SUS304',
+                        'SPC(2.5T) SUS304(2.5T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
+                    [
+                        'P-8 PS-8',
+                        '40',
+                        '54',
+                        '5',
+                        '9',
+                        'Ф37',
+                        'M81.25',
+                        '200 300',
+                        'SM10C SUS304',
+                        'SPC(2.5T) SUS304(2.5T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
+                    [
+                        'P-8 PS-8',
+                        '80',
+                        '94',
+                        '5',
+                        '9',
+                        'Ф37',
+                        'M81.25',
+                        '200 300',
+                        'SM10C SUS304',
+                        'SPC(2.5T) SUS304(2.5T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
+                    [
+                        'P-10 PS-10',
+                        '60',
+                        '80',
+                        '7',
+                        '13',
+                        'Ф55',
+                        'M101.5',
+                        '300 600',
+                        'SM10C SUS304',
+                        'SPC(2.5T) SUS304(2.5T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
+                    [
+                        'P-10 PS-10',
+                        '100',
+                        '120',
+                        '7',
+                        '13',
+                        'Ф55',
+                        'M101.5',
+                        '300 600',
+                        'SM10C SUS304',
+                        'SPC(3T) SUS304(3T)',
+                        '니켈도금',
+                        '포리싱(PL)',
+                    ],
                 ],
             },
-
+        },
+    },
+    // ! 2
+    {
+        image: '../Product/LevelingFoot/PCSERIES/160426110722_00.jpg',
+        id: 'PC SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PCSERIES/160426110722_00.jpg',
+                    type: 'Model: PC SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '하부패드' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PC-8 PCS-8',
+                        '40',
+                        '60',
+                        '5',
+                        '15',
+                        'Ф40',
+                        'M81.25',
+                        '200 300',
+                        'SM10C SUS304',
+                        'SPC(2.5T) SUS304',
+                        'N.B.R',
+                        '니켈도금 포리싱(PL',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 3
+    {
+        image: '../Product/LevelingFoot/PASERIES/160426110737_00.jpg',
+        id: 'PA SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PASERIES/160426110737_00.jpg',
+                    type: 'Model: PA SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PA-12 PAS-12',
+                        '60',
+                        '84',
+                        '8',
+                        '3',
+                        '13',
+                        'Ф55',
+                        'M121.75',
+                        '500 500',
+                        'SM10C SUS304',
+                        'SPC(3T) SUS304(3T)',
+                        '니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 4
+    {
+        image: '../Product/LevelingFoot/PACSERIES/160426110751_00.jpg',
+        id: 'PAC SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PACSERIES/160426110751_00.jpg',
+                    type: 'Model: PAC SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '하부패드' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PAC-12 PACS-12',
+                        '60',
+                        '88',
+                        '8',
+                        '3',
+                        '17',
+                        'Ф60',
+                        'M121.75',
+                        '500 500',
+                        'SM10C SUS304',
+                        'SPC(3T) SUS304(3T)',
+                        'N.B.R',
+                        '니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 5
+    {
+        image: '../Product/LevelingFoot/PVSERIES/160426110802_00.jpg',
+        id: 'PV SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PVSERIES/160426110802_00.jpg',
+                    type: 'Model: PV SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '하부패드' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PV-6 PVS-6',
+                        '40',
+                        '56',
+                        '4',
+                        '0.5',
+                        '1.5',
+                        'Ф28',
+                        'M61.0',
+                        '100 100',
+                        'SM10C SUS304',
+                        'SPC(1.5T) SUS304(1.5T)',
+                        'N.B.R STPL',
+                        '니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 6
+    {
+        image: '../Product/LevelingFoot/PTSERIES/160426110819_00.jpg',
+        id: 'PT SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PTSERIES/160426110819_00.jpg',
+                    type: 'Model: PT SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PT-12',
+                        '60',
+                        '81',
+                        '8',
+                        '13',
+                        'Ф55',
+                        'M121.75',
+                        '500',
+                        'SM10C',
+                        'SPC(2T)',
+                        '니켈도금',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 7
+    {
+        image: '../Product/LevelingFoot/PFSERIES/160426110845_00.jpg',
+        id: 'PF SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PFSERIES/160426110845_00.jpg',
+                    type: 'Model: PF SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PF-12 PFS-12','60','81','8','13','Ф55','M121.75','500 800','SM10C SUS304','SPC(3T) SUS304(3T)','니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 8
+    {
+        image: '../Product/LevelingFoot/PFFSERIES/160426110855_00.jpg',
+        id: 'PFF SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/PFFSERIES/160426110855_00.jpg',
+                    type: 'Model: PFF SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'PFF-12 PFFS-12','60','81','8','13','Ф55','M121.75','500 800','SM10C SUS304','3P(3T) SUS304','니켈도금 포리싱(P2)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 9
+    {
+        image: '../Product/LevelingFoot/SMSERIES/160426110910_00.jpg',
+        id: 'SM SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/SMSERIES/160426110910_00.jpg',
+                    type: 'Model: SM SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'SM-12SMS-12','60','79.5','8','1.5','10 (15)','Ф40 (Ф50)','M12*1.75','1000 1500','SM10C SUS304','S45C SUS','니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 10
+    {
+        image: '../Product/LevelingFoot/SMCSERIES/160426110921_00.jpg',
+        id: 'SMC SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/SMCSERIES/160426110921_00.jpg',
+                    type: 'Model: SMC SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'C' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '하부패드' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'SMC-12 SMCS-12','60','97.5','8','1.5','(15) 20','(6) 8','(Ф50) Ф58','M12*1.75','1000 1500','SM10C SUS304','S45C SUS','N.B.R','니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 11
+    {
+        image: '../Product/LevelingFoot/SMASERIES/160426110947_00.jpg',
+        id: 'SMA SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/SMASERIES/160426110947_00.jpg',
+                    type: 'Model: SMA SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'SMA-12 SMAS-12','60','102','8','34','Ф58','M12*1.75','1000 1500','SM10C SUS304','S45C SUS304','니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 12
+    {
+        image: '../Product/LevelingFoot/SMACSERIES/160426111000_00.jpg',
+        id: 'SMAC SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/SMACSERIES/160426111000_00.jpg',
+                    type: 'Model: SMAC SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'G' },
+                    { text: 'C' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'SMAC-12 SMACS-12','60','108','8','34','6','Ф58','M12*1.75','700 700','SM10C SUS304','N.B.R STPL','니켈도금 포리싱(PL)',
+                    ],
+                ],
+            },
+        },
+    },
+    // ! 13
+    {
+        image: '../Product/LevelingFoot/SPMSERIES/160426111012_00.jpg',
+        id: 'SPM SERIES',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingFoot/SPMSERIES/160426111012_00.jpg',
+                    type: 'Model: SPM SERIES',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: 'MODEL' },
+                    { text: 'L1' },
+                    { text: 'L2' },
+                    { text: 'H' },
+                    { text: 'T' },
+                    { text: 'G' },
+                    { text: 'C' },
+                    { text: 'Ф' },
+                    { text: 'M', unit: '(m/m)' },
+                    { text: '허용하중', unit: '(KG/4EA)' },
+                    { text: 'BOLT&NUT' },
+                    { text: '하부' },
+                    { text: '표면처리' },
+                ],
+                rows: [
+                    [
+                        'SMA-12 SMAS-12','60','84.5','8','1.5','15','6','Ф50','M12*1.75','500','SM10C SUS304','NYLON','니켈도금',
+                    ],
+                ],
+            },
         },
     },
 ];
+const Trolley_DATA = [
+    {
+        image: '../Product/LevelingCaster/QM40_50/160426110209_00.jpg',
+        id: 'Q-MASTER(QM40/50)',
+        des: {
+            imageProduct: [
+                {
+                    image: '../Product/LevelingCaster/QM40_50/160426110209_00.jpg',
+                    type: 'Model: QM40 S QM40 F 우레탄 패드',
+                },
+            ],
+            CasterSpecification: {
+                headers: [
+                    { text: '제품명', unit: '(Model)' },
+                    { text: '개당허용중량', unit: '(LOAD/PC)' },
+                    { text: '4개당허용중량', unit: '(LOAD/PCS)' },
+                    { text: '자중', unit: '(NET WEIGHT)' },
+                ],
+                rows: [['QM40', '35KG', '100KG', '0.4KG']],
+                // commonPCS: 'S-150 R-150 B/K-130',
+            },
+            spec: [
+                {
+                    image: '../Product/LevelingCaster/QM40_50/160517043416_10.png',
+                },
+            ],
+        },
+    },
+]
 export const TabItem_Product = [
     {
         label: '경하중용캐스터',
         labelDesc: 'Light-Duty Caster',
         value: 'Light-Duty',
-        content: (
-            <TabItem label={'경하중용캐스터'} labelDesc={'Light-Duty Caster'} DATA={Light_Duty_Caster_DATA} />
-        ),
+        content: <TabItem label={'경하중용캐스터'} labelDesc={'Light-Duty Caster'} DATA={Light_Duty_Caster_DATA} />,
     },
     {
         label: '중간하중용 캐스터',
         labelDesc: 'Medium-Duty Caster',
         value: 'Medium-Duty',
-        content: <TabItem label={'중간하중용 캐스터'} labelDesc={'Medium-Duty Caster'} DATA={Medium_Duty_Caster_DATA}/>,
+        content: (
+            <TabItem label={'중간하중용 캐스터'} labelDesc={'Medium-Duty Caster'} DATA={Medium_Duty_Caster_DATA} />
+        ),
     },
     {
         label: '중하중용 캐스터',
         labelDesc: 'Heavy-Duty Caster',
         value: 'Heavy-Duty',
-        content: <TabItem label={'중하중용 캐스터'} labelDesc={'Heavy-Duty Caster'} DATA={Heavy_Duty_Caster_DATA}/>,
+        content: <TabItem label={'중하중용 캐스터'} labelDesc={'Heavy-Duty Caster'} DATA={Heavy_Duty_Caster_DATA} />,
     },
     {
         label: '고하중용 캐스터',
         labelDesc: 'Super Heavy-Duty Caster',
         value: 'Super-Heavy-Duty',
-        content: <TabItem label={'고하중용 캐스터'} labelDesc={'Super Heavy-Duty Caster'} DATA={Super_Heavy_Duty_Caster_DATA}/>,
+        content: (
+            <TabItem
+                label={'고하중용 캐스터'}
+                labelDesc={'Super Heavy-Duty Caster'}
+                DATA={Super_Heavy_Duty_Caster_DATA}
+            />
+        ),
     },
     {
         label: '스테인리스 캐스터',
         labelDesc: 'Stainless Steel Caster',
         value: 'StainlessiSteel',
-        content: <TabItem label="스테인리스 캐스터" labelDesc="Stainless Steel Caster" DATA={Stainless_Steel_Caster_DATA}/>,
+        content: (
+            <TabItem label="스테인리스 캐스터" labelDesc="Stainless Steel Caster" DATA={Stainless_Steel_Caster_DATA} />
+        ),
     },
     {
         label: '내열성/내한성 캐스터',
@@ -3197,40 +3726,49 @@ export const TabItem_Product = [
             <TabItem
                 label="내열성/내한성 캐스터"
                 labelDesc="Heat-Resisting/Low Temperature Caster"
-            DATA={Heat_ResistingLow_Temperature_Caster_DATA}/>
+                DATA={Heat_ResistingLow_Temperature_Caster_DATA}
+            />
         ),
     },
     {
         label: '의료용 캐스터',
         labelDesc: 'Medical Equipment Caster',
         value: 'Medical-Equipment',
-        content: <TabItem label="의료용 캐스터" labelDesc="Medical Equipment Caster" DATA={Medical_Equipment_Caster_DATA}/>,
+        content: (
+            <TabItem label="의료용 캐스터" labelDesc="Medical Equipment Caster" DATA={Medical_Equipment_Caster_DATA} />
+        ),
     },
     {
         label: '저소음 캐스터',
         labelDesc: 'Low Noise Caster',
         value: 'Low-Noise',
-        content: <TabItem label="저소음 캐스터" labelDesc="Low Noise Caster" DATA={LowNoise_Caster_DATA}/>,
+        content: <TabItem label="저소음 캐스터" labelDesc="Low Noise Caster" DATA={LowNoise_Caster_DATA} />,
     },
     {
         label: '특수 목적용 캐스터',
         labelDesc: 'Special Caster',
         value: 'Special-Caster',
-        content: <TabItem label="특수 목적용 캐스터" labelDesc="Special Caster" DATA={Special_Caster_DATA}/>,
+        content: <TabItem label="특수 목적용 캐스터" labelDesc="Special Caster" DATA={Special_Caster_DATA} />,
     },
     {
         label: '높낮이조절 캐스터',
         labelDesc: 'Leveling Caster',
         value: 'Leveling-Caster',
-        content: <TabItem label="높낮이조절 캐스터" labelDesc="Leveling Caster" DATA={Leveling_Caster_DATA}/>,
+        content: <TabItem label="높낮이조절 캐스터" labelDesc="Leveling Caster" DATA={Leveling_Caster_DATA} />,
     },
     {
         label: '높낮이 조절자',
         labelDesc: 'Leveling Foot',
         value: 'Leveling-Foot',
-        content: <TabItem label="높낮이 조절자" labelDesc="Leveling Foot" DATA={Leveling_Foot_DATA}/>,
+        content: <TabItem label="높낮이 조절자" labelDesc="Leveling Foot" DATA={Leveling_Foot_DATA} />,
     },
-]
+    {
+        label: '운반 기구',
+        labelDesc: 'Trolley',
+        value: 'Trolley',
+        content: <TabItem label="운반 기구" labelDesc="Trolley" DATA={Trolley_DATA} />,
+    },
+];
 // ! Customer
 export const CustomerListMenuItems = [
     {
@@ -3263,6 +3801,6 @@ export const TabCustomer = [
         label: '온라인견적문의',
         labelDesc: 'Inquiry',
         value: 'Inquiry',
-        content: <Inquiry label="온라인견적문의" labelDesc="Inquiry"/>,
+        content: <Inquiry label="온라인견적문의" labelDesc="Inquiry" />,
     },
-]
+];
